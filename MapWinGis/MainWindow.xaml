@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MapWinGis"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="381.933" Width="801.261">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="788*"/>
+            <ColumnDefinition Width="129*"/>
+        </Grid.ColumnDefinitions>
+        <WindowsFormsHost HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,0,0,0" />
+
     </Grid>
 </Window>
